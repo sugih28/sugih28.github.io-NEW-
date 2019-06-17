@@ -1,0 +1,197 @@
+body {
+	font-family: "raleway" !important;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	color: #ffffff;
+	background-color: #333;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+a {
+	cursor: pointer; 
+}
+
+/*Page*/
+#about {
+	display: none;
+}
+
+#porto {
+	display: none;
+}
+
+.splash-screen {
+	z-index: 5;
+	background-color: #000;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+.splash-screen img {
+	height: 300px;
+	width: auto;
+	margin-top: 90px;
+	display: none;
+}
+
+.splash-screen h1 {
+	display: none;
+}
+
+.navbar-ikp {
+	color: #fff;
+}
+
+.navbar-ikp a {
+	color: #fff;
+}
+
+.navbar .navbar-header .img-brand {
+	height: 50px;
+	position: relative;
+	margin-left: 5px;
+	float: left;
+}
+
+.navbar-ikp .navbar-nav a:hover {
+	transition: .4s;
+	background-color: #000000;
+	background-color: #00000055;
+}
+
+.navbar-ikp .navbar-nav a:focus {
+	background-color: transparent;
+	background-color: #00000055;
+}
+
+.navbar-nav .active {
+	border-bottom: 2px solid #00000055;
+}
+
+.bg {
+	width: auto;
+	height: 100%;
+	z-index: -1;
+	position: fixed;
+	top: 0;
+	overflow: auto;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 10px;
+	font-size: 10pt;
+	z-index: 3;
+}
+
+/*Component*/
+.center-v {
+	margin-top: 70px;
+}
+
+.head-line {
+	border-bottom: 3px solid #03a9f4;
+}
+
+.note {
+	font-size: 9pt;
+	margin-top: -10px;
+	display: block;
+}
+
+.color-blue {
+	color: #03a9f4;
+}
+
+.panel {
+	background-color: #000000;
+	background-color: #000000aa;
+	border: 1px solid #000;
+	overflow: auto;
+}
+
+.panel .panel-thumn {
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+
+.panel .panel-thumn img {
+	width: 100%;
+	position: absolute;
+}
+
+.panel .panel-txt-thumn {
+	width: 96%;
+	height: 151px;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	background-color: #00000099;
+	transition: .4s;
+	cursor: pointer;
+}
+
+.panel .panel-txt-thumn:hover {
+	transition: .4s;
+	background-color: #00000066;
+}
+
+.icon-sm {
+	height: 40px;
+	width: auto;
+	margin: 5px;
+}
+
+.btn-dark-ikp {
+	background-color: #000000;
+	background-color: #00000066;
+	color: #ddd;
+	outline: none;
+}
+
+.btn-dark-ikp:hover {
+	color: #fff;
+}
+
+.btn-dark-ikp:focus {
+	outline: none;
+}
+
+.event {
+	display: inline-block;
+	padding: 5px;
+	border-left: 2px solid #03a9f4;
+}
+
+.event .event-start {
+	position: absolute;
+	top: -20px;
+	left: 0;
+}
+
+.event .event-end {
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+}
+
+.modal {
+	color: #000;
+}
+
+.modal-bg .modal-dialog{
+	width: 90%;
+}
+
+input,textarea {
+	background-color: #333333 !important;
+	background-color: #33333333 !important;
+	border-color: #000 !important;
+}
