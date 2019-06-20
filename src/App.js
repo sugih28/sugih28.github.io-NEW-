@@ -4,7 +4,6 @@ import Navbar from './components/layout/Navbar';
 import Background from './components/layout/Background';
 import Home from './components/page/Home';
 import Portofolio from './components/page/Portofolio';
-import Login from './components/auth/Login';
 
 function App() {
   return (
