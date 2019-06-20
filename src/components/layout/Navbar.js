@@ -20,7 +20,6 @@ function Navbar() {
 		        <li><Link to="/">Home</Link></li>
 		        <li><Link to="/portofolio">Portofolio</Link></li>		      
 		        <li><Link to="/blog">Blog</Link></li>		      
-		        <li><Link to="/login">Login</Link></li>		      
 		      </ul>
 		      
 		      <ul className="nav navbar-nav navbar-right">

@@ -14,7 +14,6 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/portofolio" component={Portofolio} />
-          <Route path="/login" component={Login} />
           <Route path="/logout" ref={() => {sessionStorage.clear()}} />
         </Switch>
         <Background />
